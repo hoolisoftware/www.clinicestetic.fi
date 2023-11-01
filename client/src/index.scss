@@ -1,0 +1,90 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*
+{
+  box-sizing: border-box;
+}
+
+:root
+{
+  @media (max-width: 768px)
+  {
+    font-size: 12px;
+  }
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: #f4ebf3;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E36C9C;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.MuiPickersDay-root.Mui-selected:not(.Mui-disabled)
+{
+  background: #E983AA !important;
+  border-radius: 100px;
+  color: #fff !important;
+  overflow: hidden;
+  border: none !important;
+}
+
+.MuiButton-sizeMedium
+{
+  padding: 10px 20px !important;
+}
+
+.MuiButtonBase-root:not(.MuiPickersDay-root)
+{
+  border-radius: 100px;
+  overflow: hidden;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.MuiButtonBase-root:not(.MuiPickersDay-root):not(.Mui-disabled)
+{
+  background: #E983AA !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.MuiPickersCalendarHeader-switchViewButton
+{
+  display: none !important;
+}
+
+.MuiPickersToolbar-root
+{
+  display: none !important;
+}
+
+.MuiDialogActions-root .MuiButtonBase-root:first-child
+{
+  display: none;
+}
