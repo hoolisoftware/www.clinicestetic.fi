@@ -19,20 +19,18 @@ import {useTranslation} from "react-i18next";
 export default function Block(){
     const dispatch = useDispatch()
     const recaptcha = useSelector((state: RootState) => state.data.recaptcha)
+    const {t} = useTranslation();
     const mutation = useMutation({
         mutationFn: async (newCallForm: FormData) => {
             return axios.post(`${API_URL}booking/form-phone/`, newCallForm)
         },
         onSuccess: () => {
-            alert('Мы вам скоро перезвоним!')
+            alert(t('block_form_call_form_success_alert'))
         },
         onError: () => {
-            alert('Вы не прошли капчу')
+            alert('block_form_call_form_captcha_alert')
         }
     })
-
-    const {t} = useTranslation();
-    
 
     return <div className={css.block}>
         <img className={css.bgLayer3} src={bgLayer3} alt="bgLayer3" />
@@ -40,9 +38,9 @@ export default function Block(){
         <img className={css.bgLayer1} src={bgLayer1} alt="bgLayer1" />
         <div className={css.container}>
             <Heading center>
-                <div className={css.heading}>{t("Home_block7_title")}</div>
+                <div className={css.heading}>{t("block_form_call_title")}</div>
             </Heading>
-            <div className={css.subheading}>{t("Home_block7_subTitle")}</div>
+            <div className={css.subheading}>{t("block_form_call_text")}</div>
             <div className={css.form}>
                 <form action="" onSubmit={ e => {e.preventDefault(); mutation.mutate(new FormData(e.currentTarget))} }>
                     <div className={css.formInner}>
@@ -50,7 +48,7 @@ export default function Block(){
                                 className={css.formInput}
                                 fullWidth
                                 disabled={mutation.isSuccess}
-                                placeholder={t("Home_block7_placeholder")}
+                                placeholder={t("block_form_call_form_phone")}
                                 type='text'
                                 name='phone_number'
                                 required
@@ -67,7 +65,7 @@ export default function Block(){
                                     }
                                 }}
                             >
-                                {t("Home_block7_button")}
+                                {t("block_form_call_form_button")}
                                 <img className={css.formButtonArrow} src={arrow} alt="arrow" />
                             </Button>
                     </div>

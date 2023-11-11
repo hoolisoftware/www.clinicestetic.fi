@@ -10,7 +10,7 @@ export default function Page()
 {
     const {t} = useTranslation();
     return <PageLayout
-        title={t("book_Book")}
+        title={t("page_book_title")}
     >
         <WrapperFirstBlock>
             <Block/>

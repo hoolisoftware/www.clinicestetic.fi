@@ -56,7 +56,7 @@ export default function Block() {
     return <Container>
         <div className={css.heading}>
             <Heading center>
-                {t("Home_block6_card1_title")}
+                {t("block_reviews_title")}
             </Heading>
         </div>
         <div className={css.swiperContainer}>

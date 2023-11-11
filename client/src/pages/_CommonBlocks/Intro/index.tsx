@@ -28,7 +28,7 @@ export default function Intro(props: props) {
                 <img className={css.sectionIllustration} src={props.illustration}/>
                 <Card className={css.sectionContent}>
                     <div className={css.sectionText}>
-                        {t("Training_block1_pageSubTitle")}
+                        {t("intro_text")}
                     </div>
                     <div className={css.sectionPhone}>
                         <img src={iconPhone} alt="phone icon" />

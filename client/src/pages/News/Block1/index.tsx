@@ -21,7 +21,7 @@ export default function Block() {
 
     return <Container>
         <div className={css.heading}>
-            <Heading center >{t("News_pageTitle")}</Heading>
+            <Heading center >{t("page_news_block1_title")}</Heading>
         </div>
         <div className={css.section}>
             <div className={css.sectionBlock}>
@@ -41,15 +41,15 @@ export default function Block() {
                     <CardContent>
                         <div className={css.cardContent}>
                             <CardTitle>
-                                <div className={css.cardTitle}>{t("News_searchTitle")}</div>
+                                <div className={css.cardTitle}>{t("page_news_block1_sidebar_title")}</div>
                             </CardTitle>
                             <Input
-                                placeholder={t("News_searchPlaceholder")}
+                                placeholder={t("page_news_block1_sidebar_form_text")}
                                 type='text'
                                 fullWidth
                             />
                             <Button fullWidth>
-                                {t("News+searchButton")}
+                                {t("page_news_block1_sidebar_form_button")}
                                 &nbsp;
                                 <img src={arrow} alt="arrow" />
                             </Button>

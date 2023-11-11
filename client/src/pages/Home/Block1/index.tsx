@@ -19,9 +19,9 @@ export default function Block(){
         <div className={css.circle}>
             <img className={css.circleBg} src={circle} alt="circle" />
             <div className={css.circleContent}>
-                <div className={css.circleContentHeading}>{t("Home_block1_title")}</div>
-                <div className={css.circleContentDescription}>{t("Home_block1_subTitle1")}<br /> {t("Home_block1_subTitle2")}</div>
-                <Link to='/book/' className={css.button}>{t("Home_block1_button")}</Link>
+                <div className={css.circleContentHeading}>{t("page_home_block1_title")}</div>
+                <div className={css.circleContentDescription}>{t("page_home_block1_text")}</div>
+                <Link to='/book/' className={css.button}>{t("page_home_block1_button")}</Link>
             </div>
         </div>
     </div>

@@ -52,7 +52,7 @@ export default function Page() {
                             }
                         </div>
                     </div>
-                    <a href='/news' className={css.link}>{'<'} Назад</a>
+                    <a href='/news' className={css.link}>{'<'} {t("page_new_intro_back")}</a>
                     <br />
                     <br />
                     <div className={css.content}>
@@ -66,7 +66,7 @@ export default function Page() {
                         </Card>
                     </div>
                     <div className={css.share}>
-                        { t('Поделиться постом') }:
+                        { t('page_new_share') }:
                         <div className={css.shareLinks}>
                             <img src={iconFacebook} alt="facebook icon" />
                             <img src={iconYoutube} alt="youtube icon" />

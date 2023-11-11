@@ -13,7 +13,7 @@ export default function Page()
 {
     const {t} = useTranslation();
     return <PageLayout
-        title={t("ContactUs")}
+        title={t("page_contacts_title")}
     >
         <WrapperFirstBlock>
             <Block1/>

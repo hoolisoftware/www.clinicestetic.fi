@@ -11,7 +11,7 @@ export default function Page()
 {
     const {t} = useTranslation();
     return <PageLayout
-        title={t("professionals_block1_title")}
+        title={t("page_specialists_title")}
     >
         <WrapperFirstBlock>
             <OurTeam/>

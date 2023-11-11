@@ -21,7 +21,7 @@ export default function Block() {
             <img className={css.bgLayer} src={bgLayer} alt="" />
             <Container>
                 <div className={css.heading}>
-                    <Heading center>{t("professionals_title1")}</Heading>
+                    <Heading center>{t("page_specialists_block1_title")}</Heading>
                 </div>
                 <div className={css.cards}>
                     {

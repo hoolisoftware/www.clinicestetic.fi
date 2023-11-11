@@ -20,35 +20,35 @@ export default function Block(){
         <img className={css.bgLayer1} src={bgLayer1} alt="bgLayer1" />
         <div className={css.container}>
             <Heading center>
-                <div className={css.heading}>{t("Home_block5_title")}</div>
+                <div className={css.heading}>{t("page_home_block5_title")}</div>
             </Heading>
             <div className={css.cards}>
                 <div className={css.card}>
                     <img className={css.cardImage} src={illustration1} alt='illustration1'/>
-                    <div className={css.cardHeading}>{t("Home_block5_card1_subtitle")}</div>
+                    <div className={css.cardHeading}>{t("page_home_block5_item1_title")}</div>
                     <div className={css.cardContent}>
-                        {t("Home_block5_card1_text")}
+                        {t("page_home_block5_item1_text")}
                     </div>
                 </div>
                 <div className={css.card}>
                     <img className={css.cardImage} src={illustration2} alt='illustration2'/>
-                    <div className={css.cardHeading}>{t("Home_block5_card2_subtitle")}</div>
+                    <div className={css.cardHeading}>{t("page_home_block5_item2_title")}</div>
                     <div className={css.cardContent}>
-                        {t("Home_block5_card2_text")}
+                        {t("page_home_block5_item2_text")}
                     </div>
                 </div>
                 <div className={css.card}>
                     <img className={css.cardImage} src={illustration3} alt='illustration3'/>
-                    <div className={css.cardHeading}>{t("Home_block5_card3_subtitle")}</div>
+                    <div className={css.cardHeading}>{t("page_home_block5_item3_title")}</div>
                     <div className={css.cardContent}>
-                        {t("Home_block5_card3_text")}
+                        {t("page_home_block5_item3_text")}
                     </div>
                 </div>
                 <div className={css.card}>
                     <img className={css.cardImage} src={illustration4} alt='illustration4'/>
-                    <div className={css.cardHeading}>{t("Home_block5_card4_subtitle")}</div>
+                    <div className={css.cardHeading}>{t("page_home_block5_item4_title")}</div>
                     <div className={css.cardContent}>
-                        {t("Home_block5_card4_text")}
+                        {t("page_home_block5_item4_text")}
                     </div>
                 </div>
             </div>

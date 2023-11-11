@@ -29,7 +29,7 @@ export default function Block() {
     
     return <Container>
         <div className={css.heading}>
-            <Heading center>{t("professionals_block2_title")}</Heading>
+            <Heading center>{t("block_certificates_title")}</Heading>
         </div>
         <div className={css.swiperContainer}>
             <Swiper

@@ -2,8 +2,8 @@ import PageLayout from '../../components/PageLayout'
 import WrapperFirstBlock from '../../components/WrapperFirstBlock'
 
 import Intro from '../_CommonBlocks/Intro'
+import Block1 from './Block1'
 import Block2 from './Block2'
-import Block3 from './Block3'
 import HappyClients from '../_CommonBlocks/HappyClients'
 import CallForm from '../_CommonBlocks/CallForm'
 import ContactForm from '../_CommonBlocks/ContactForm'
@@ -15,16 +15,16 @@ export default function Page()
 {
     const {t} = useTranslation();
     return <PageLayout
-        title={t("learning")}
+        title={t("page_training_title")}
     >
         <WrapperFirstBlock>
             <Intro
-                title={'Training'}
+                title={t('page_training_title')}
                 illustration={illustration}
             />
         </WrapperFirstBlock>
+        <Block1/>
         <Block2/>
-        <Block3/>
         <HappyClients/>
         <CallForm/>
         <ContactForm/>

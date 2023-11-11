@@ -12,7 +12,7 @@ export default function Page()
     const {t} = useTranslation();
     
     return <PageLayout
-        title={t("PriceList_block1_mainTitle")}
+        title={t("page_price_title")}
     >
         <WrapperFirstBlock>
             <Block1/>

@@ -55,7 +55,7 @@ export default function Component(){
             </div>
         </div>
         <div className={css.section2}>
-            {t("Footer_rights")}
+            {t("footer_copyright")}
         </div>
     </div>
 }

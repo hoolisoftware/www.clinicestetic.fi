@@ -7,13 +7,13 @@ export default function Block(){
     const {t} = useTranslation();
     
     return <Illustration
-        title={<>{t("Home_block4_title")}</>}
-        subTitle={<>{t("Home_block4_subTitle")}</>}
+        title={<>{t("page_home_block4_title")}</>}
+        subTitle={<>{t("page_home_block4_text")}</>}
         content={
             <>
-                {t("Home_block4_text1")}
+                {t("page_home_block4_p1")}
                 <br /><br />
-                {t("Home_block4_text2")}
+                {t("page_home_block4_p2")}
             </>
         }
         illustration={illustration}

@@ -9,7 +9,7 @@ export default function Block() {
     
     return <div className={css.container}>
         <div className={css.heading}>
-            <Heading center>{t("Contacts_block1_title")}</Heading>
+            <Heading center>{t("page_contacts_block1_title")}</Heading>
         </div>
         <iframe
             className={css.map}

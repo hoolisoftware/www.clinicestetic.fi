@@ -1,4 +1,141 @@
 {
+  "header_clinic": "Klinikasta",
+  "header_clinic_faq": "FAQ",
+  "header_clinic_news": "Bloggi",
+  "header_clinic_training": "Koulutus",
+  "header_clinic_before_after": "Ennen ja jälkeen",
+  "header_specialists": "Henkilökunta",
+  "header_treatments": "Palvelut",
+  "header_treatments_consultation": "Ajanvaraus konsultaatioon",
+  "header_treatments_more": "Muu...",
+  "header_price": "Hinnasto",
+  "header_contacts": "Yhteystiedot",
+  "header_language": "Vaihda kieli",
+
+  "footer_copyright": "Lääkäriklinikka Estetik OY. Y-tunnus: 2260966-9",
+
+  "sidebar_consultation_title": "Varaa aika konsultaatioon asiantuntijan kanssa",
+  "sidebar_consultation_text": "Valitse sopiva päivä ja aika",
+  "sidebar_consultation_button": "Varaa", 
+
+  "intro_text": "Soita ja varaa aika konsultaatioon nyt:", 
+
+  "block_form_call_title": "Haluatteko tuntea itsenne kauniimmaksi, ja näyttää kauniimmalta kuin koskaan ennen?",
+  "block_form_call_text": "Varaa aika plastiikkakirurgisen lääkäriklinikka Esteticin maksuttomalle vastaanottokäynnille!",
+  "block_form_call_form_phone": "Puhelinnumeronne*",
+  "block_form_call_form_button": "Takaisinsoitto 9 sekunnin kuluessa",
+  "block_form_call_form_success_alert": "Soitamme teille pian takaisin!",
+  "block_form_call_form_captcha_alert": "Et läpäissyt CAPTCHAa",
+
+  "block_form_message_title": "Voitte jättää meille viestin",
+  "block_form_message_form_message": "Kirjoittakaa viestinne tähän kenttään",
+  "block_form_message_form_full_name": "Nimenne*",
+  "block_form_message_form_phone": "Puhelinnumeronne*",
+  "block_form_message_form_button": "Jätä viesti",
+  "block_form_message_form_success": "Hakemus on lähetetty, otamme sinuun yhteyttä!",
+
+  "block_certificates_title": "Todistukset",
+
+  "block_treatments_title": "Palvelut",
+  
+  "block_reviews_title": "Tyytyväisten potilaiden kokemuksia",
+
+  "page_home_block1_title": "Varaa",
+  "page_home_block1_text": "Aika plastiikkakirurgisen lääkäriklinikka Esteticin maksuttomalle vastaanottokäynnille",
+  "page_home_block1_button": "Rekisteröityminen vastaanotolle",
+
+  "page_home_block3_title": "Aikanne on meille arvokasta",
+  "page_home_block3_text": "Jättäkää puhelinnumeronne, niin soitamme teille 9 sekunnin kuluessa",
+  "page_home_block3_button": "Soittakaa minulle",
+
+  "page_home_block4_title": "Meillä on ilo saada teidät asiakkaaksemme!",
+  "page_home_block4_text": "Työskentelemme vuorokauden ympäri, ja ovemme ovat avoinna kaikille!",
+  "page_home_block4_p1": "Clinicestetic on johtava uusimpien huipputeknologisten lääketieteen palveluiden tarjoaja. Toimintamme keskittyy pääsääntöisesti esteettiseen lääketieteeseen: (plastiikkakirurgia, kosmetologia, ravitsemusoppi, hiustensiirto, hammashoito, silmähoito, gynekologia ja proktologia.)",
+  "page_home_block4_p2": "Otamme täyden vastuun potilaan terveydestä. Sen takia suosimme maailman parasta teknologiaa sekä hoitomuotoja, ja valitsemme tehokkaimmat toimenpiteet kauneuden ja nuorekkuuden säilyttämiseksi.",
+
+  "page_home_block5_title": "Miksi kannattaa hakeutua meidän klinikallemme?",
+  "page_home_block5_item1_title": "Laaja toimenpidevalikoima",
+  "page_home_block5_item1_text": "Lääkäriklinikka Clinicestetic tarjoaa laajan toimenpidevalikoiman: nenäleikkauksesta ja rintojen suurennuksesta, rasvaimuun ja kosmetologisiin hoitoihin.",
+  "page_home_block5_item2_title": "Uusimmat välineet",
+  "page_home_block5_item2_text": "Kaikki leikkaussalimme ja osastomme ovat viimeisimmillä tekniikalla varustettuja; ensiluokkaisilla ja luotettavilla lääketieteen välineillä sekä lääkeaineilla.",
+  "page_home_block5_item3_title": "Kokeneet asiantuntijat",
+  "page_home_block5_item3_text": "Lääkäriklinikka Clinicesteticin asiantuntijoilla on työssään mittava, yli 15 vuoden, ammatinharjoittamisen kokemus – jotta näyttäisitte hyvältä, ja tuntisitte olonne paremmaksi!",
+  "page_home_block5_item4_title": "Kohtuulliset hinnat",
+  "page_home_block5_item4_text": "Pyrimme pitämään hintamme kohtuullisina.. Hinnastomme on tehty jokaiselle, jotta kauneudenhoito olisi kaikille mahdollista!",
+
+  "page_specialists_title": "Meidän asiantuntijat",
+  "page_specialists_block1_title": "Meidän asiantuntijat",
+
+  "page_treatments_title": "Palvelut",
+  "page_treatments_block1_title": "Palvelut",
+
+
+  "page_treatment_block1_title": "Hinnasto",
+
+  "page_price_title": "Hinnasto",
+  "page_price_block1_title": "Hinnasto",
+
+  "page_contacts_title": "Yhteystiedot",
+  "page_contacts_block1_title": "Meidät löytää",
+
+  "page_news_title": "Bloggi",
+  "page_news_block1_title": "Bloggi",
+  "page_news_block1_sidebar_title": "Uutishaku",
+  "page_news_block1_sidebar_form_text": "Hakusana",
+  "page_news_block1_sidebar_form_button": "Etsi",
+
+  "page_new_intro_back": "Palaa takaisin",
+  "page_new_share": "Jaa julkaisu",
+
+  "page_book_title": "Ajanvaraus konsultaatioon",
+  "page_book_block_title": "Ajanvaraus konsultaatioon",
+  "page_book_frame1_title": "Valitse päivämäärä",
+  "page_book_frame1_button_next_step": "Seuraava",
+
+  "page_book_frame2_button_back": "Palaa takaisin",
+  "page_book_frame2_title": "Valitse aika varaukselle",
+  "page_book_frame2_booked": "Varattu",
+
+  "page_book_frame3_button_back": "Palaa takaisin",
+  "page_book_frame3_title": "Syötä yhteystietosi",
+  "page_book_frame3_input_fullname": "Koko nimi",
+  "page_book_frame3_input_phone": "Puhelinnumerosi",
+  "page_book_frame3_input_button": "Varaa aika",
+
+  "page_book_frame4_text": "Kiitos tiedon antamisesta. Saat pian puhelun vahvistaaksesi varauksesi!",
+  "page_book_frame4_button_home": "Palaa etusivulle",
+
+  "page_training_title": "Kurssit",
+
+  "page_training_block1_title": "Kursit",
+  "page_training_block1_subtitle": "Injektiokoulutuskeskuksen kurssit tarjoavat sinulle koulutusohjelman, jonka avulla voit laajentaa osaamistasi esteettisiin pistoshoitoihin tai syventää taitojasi haluamallasi alueella.",
+
+  "page_training_block1_sections_title": "Tarjoamme myös yksityiskoulutusta. Yksityiskoulutus voidaan sovittaa juuri Sinun aikatauluihisi ja Sinun ammatillisiin tarpeisiisi.",
+
+  "page_training_block1_section1_title": "Peruskussi 1 – kasvojen injektiohoidot",
+  "page_training_block1_section1_p1": "Peruskurssi 1:n aikana opit perusteet pistoshoidoista ja esteettisiin hoitoihin käytettävistä aineista. Opit hoitamaan yleisimpiä kasvojen ikääntymiseen liittyviä muutoksia, kuten Sibelius-juonteita ja nasolabiaalipoimuja. Lisäksi opit hoitamaan aknearpia sekä tekemään ihon kuntoa parantavia skinbooster-hoitoja. Luomme tehokatsauksen myös esteettisiin botuliinihoitoihin ja huultentäyttöön.",
+  "page_training_block1_section1_p2": "Kurssi sisältää sekä teoreettisen että käytännön osion. Kouluttajana toimii kansainvälisesti palkittu sairaanhoitaja Sofia Kazakov yhdessä esteettisiin injektiohoitoihin perehtyneen lääkärin kanssa.Erona tavanomaisiin peruskursseihin Lääkäriklinikka Esteticin injektiokurssi tarjoaa perusteellisemman perehdytyksen esteettisiin injektiohoitoihin sekä potilasturvallisuusasioihin. Opit injektoimaan oikein, turvallisesti ja tehokkaasti. Käytännön pistoshoito-osaamisen lisäksi saat taustatietoa ja asiantuntemusta, jota tarvitset tarjotaksesi asiakkaillesi parasta, ammattitaitoisinta palvelua ja hoitoa.",
+  "page_training_block1_section1_p3": "Käytännön osaaminen perustuu aina faktoihin. Siksi tämä kurssi sisältää lääketieteellisen osuuden, jossa käsitellään kasvojen anatomia ja alueet, joita pistoshoidoissa on varottava. Lääkärin johdolla opit ymmärtämään myös injektiohoitoihin liittyvät riskit ja komplikaatiot. Kurssipäivän päätyttyä tiedät, kuinka mahdolliset komplikaatiot hoidetaan oikein.",
+  "page_training_block1_section1_p4": "Kurssipäivän aikana opit, kuinka ikääntyminen näkyy ihossa ja kasvonpiirteissä. Yhdessä luomme katsauksen tieteellisiin artikkeleihin, käymme läpi pistosten indikaatiot ja kontraindikaatiot sekä sen, milloin on syytä konsultoida kokeneempaa lääkäriä. Lisäksi saat hyödyllistä tietoa toimenpiteiden markkinoinnista ja hinnoittelusta.",
+  "page_training_block1_section1_p5": "Lisätietoja saat soittamalla toimistoomme, p. 0942451501 tai lähettämällä sähköpostia: info@clinicestetic.fi",
+
+  "page_training_block1_section2_title": "Jatkokurssi: Ihon pistoshoidot II",
+  "page_training_block1_section2_p1": "Lääkäriklinikka Esteticin Ihon pistoshoidot II (Volyymikurssi) on jatkokurssi peruskurssin käyneille. Tällä kurssilla opit täyteaineiden käytöstä lisää, esimerkiksi Xcellens Cross-Linked-tuotteiden käytön erityisen kasvojenkohotustekniikan. Tämä tekniikka on erityisen tehokas ja saa aikaan maksimaalisen kohotuksen mahdollisimman pienellä määrällä täyteainetta, lopputuloksena luonnollinen mutta selvästi vuosia nuorempi ulkonäkö. Käymme läpi pistoskohdat ja tarvittavat Cross-Linked-sarjan valmisteet ja näiden eron. Keskitymme eri kasvotyyppeihin, ja millä kunkin kauneutta ja parhaita puolia saadaan korostettua ja ikääntymisen merkkejä korjattua tehokkaimmin.",
+
+  "page_training_block1_section3_title": "Botuliinitoksiini-injektiokurssi",
+  "page_training_block1_section3_p1": "Lääkäriklinikka Estetikin botulinnitoksiini-injektioiden peruskurssi koostuu teoreettisesta ja käytännön osuudesta. Käymme läpi eri botuliinitoksiinit ja niiden erot, ja opit taustatiedot, joita tarvitset voidaksesi injektoida botoxia ammattimaisesti. Opit käyttämään Allerganin Vistabel-botuliinitoksiinia. Kurssi sisältää lääketieteellisen osuuden, jossa käsittelemme kasvojen anatomian, käymme läpi hoitoon liittyvät mahdolliset komplikaatiot ja niiden hoidon ja milloin on tarpeen konsultoida.",
+
+  "page_training_block1_section4_title": "Ihon kuntoa parantavat pistoshoidot",
+  "page_training_block1_section4_p1": "Tällä kurssilla opit, kuinka palauttaa ihon kosteus ja kimmoisuus, ja tasoittaa pieniä ihojuonteita ja ryppyjä. Ihon tasaisuutta, kimmoisuutta ja kosteutta voidaan parantaa erilaisin pistoshoidoin! Lääkäriklinikka Esteticin ihokurssilla opit perusasiat mikroneulauksesta, skinboostereista, Volite-pistoshoidosta ja PRP-tekniikasta. Kurssi koostuu sekä teoreettisesta ja käytännön osuudesta",
+
+  "page_training_block2_title": "Meidän asiantuntijat",
+  "page_training_block2_fullname": "Sofia Kazakov",
+  "page_training_block2_position": "Johtava asiantuntija ei-kirurgisessa kasvojenhoidossa",
+  "page_training_block2_p1": "Pistos-, botuliini- sekä Restylane-kurssit.",
+  "page_training_block2_p2": "Tukholman Inject Academy Awards-kilpailun voittaja, Tukholma",
+  "page_training_block2_p3": "Aesthetic & Anti-aging Medicine-liiton Euroopan kongressin jäsen vuodesta 2010 lähtien",
+  "page_training_block2_p4": "Koulutus: Saimaan ammattikorkeakoulu, sairaanhoitaja/ terveydenhoitaja",
+
   "Header_AboutClinik": "Tietoja Klinikasta",
   "Header_AboutClinik_question": "Usein kysytyt kysymykset",
   "Header_AboutClinik_news": "Uutiset",

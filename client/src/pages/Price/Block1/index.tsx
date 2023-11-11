@@ -33,7 +33,7 @@ export default function Block() {
 
     return <Container>
         <div className={css.heading}>
-            <Heading center >{t("PriceList_block1_mainTitle")}</Heading>
+            <Heading center >{t("page_price_block1_title")}</Heading>
         </div>
         <div className={css.section}>
             <div className={css.sectionBlock}>
@@ -54,12 +54,12 @@ export default function Block() {
                     <CardContent>
                         <div className={css.cardContent}>
                             <CardTitle>
-                                <div className={css.cardTitle}>{t("PriceList_block1_title")}</div>
+                                <div className={css.cardTitle}>{t("sidebar_consultation_title")}</div>
                             </CardTitle>
-                            <div className={css.cardText}>{t("PriceList_block1_subTitle")}</div>
+                            <div className={css.cardText}>{t("sidebar_consultation_text")}</div>
                             <Link to='/book/' className={css.button}>
                                 <Button fullWidth>
-                                    {t("PriceList_block1_button")}
+                                    {t("sidebar_consultation_button")}
                                     &nbsp;
                                     <img src={arrow} alt="arrow" />
                                 </Button>

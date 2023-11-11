@@ -8,6 +8,7 @@ import Container from '@/components/Container'
 
 import TrainingImage from '@/assets/components/treatments-treatment7.png'
 import BookImage from '@/assets/components/treatments-treatment8.png'
+
 import {useTranslation} from "react-i18next";
 import { useServices } from '@/hooks/use-query/services'
 import getTranslatedField from '@/utils/getTranslatedField'
@@ -27,7 +28,7 @@ export default function Block(props: props) {
         <div className={css.heading}>
             <div className={css.heading}>
                 <Heading center>
-                    {t("home_block2_title")}
+                    {t("page_treatments_block1_title")}
                 </Heading>
             </div>
             <div className={css.treatments}>

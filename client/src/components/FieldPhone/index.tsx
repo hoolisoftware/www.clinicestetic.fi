@@ -41,7 +41,7 @@ export default function FieldPhone(props: Props) {
 
                     ].join(' ')
                 }
-                placeholder={t("Home_block7_placeholder")}
+                placeholder={t("page_book_frame3_input_phone")}
             />
         </>
     )

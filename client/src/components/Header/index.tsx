@@ -45,42 +45,42 @@ export default function Component(){
                 </Link>
                 <ul className={css.menu}>
                     <li className={location.pathname === '/about/' ? css.active : ''}>
-                        <Link to='/about/'>{t("Header_AboutClinik")}</Link>&nbsp;
+                        <Link to='/about/'>{t("header_clinic")}</Link>&nbsp;
                         <img src={arrow} alt="" />
                         <div className={css.dropdown}>
                             <Link to='/faq/'>
                                 <div className={css.dropdownItem}>
-                                    {t("Header_AboutClinik_question")}
+                                    {t("header_clinic_faq")}
                                 </div>
                             </Link>
                             <Link to='/news/'>
                                 <div className={css.dropdownItem}>
-                                    {t("Header_AboutClinik_news")}
+                                    {t("header_clinic_news")}
                                 </div>
                             </Link>
                             <Link to='/training/'>
                                 <div className={css.dropdownItem}>
-                                    {t("Header_AboutClinik_learning")}
+                                    {t("header_clinic_training")}
                                 </div>
                             </Link>
                             <Link to='/price/'>
                                 <div className={css.dropdownItem}>
-                                    {t("Header_AboutClinik_price")}
+                                    {t("header_price")}
                                 </div>
                             </Link>
                             <Link to='/before-after/'>
                                 <div className={css.dropdownItem}>
-                                    {t("Header_AboutClinik_after")}
+                                    {t("header_clinic_before_after")}
                                 </div>
                             </Link>
                         </div>
                     </li>
                     <li className={location.pathname === '/specialists/' ? css.active : ''}>
-                        <Link to='/specialists/'>{t("Header_professionals")}</Link>
+                        <Link to='/specialists/'>{t("header_specialists")}</Link>
                     </li>
                     <li className={location.pathname === '/treatments/' ? css.active : ''}>
                         <Link to='/treatments/'>
-                            {t("Header_services")}&nbsp;
+                            {t("header_treatments")}&nbsp;
                         </Link>
                         <img src={arrow} alt="" />
                         <div className={css.dropdown}>
@@ -95,29 +95,29 @@ export default function Component(){
                             }
                             <Link to='/training/'>
                                 <div className={css.dropdownItem}>
-                                    {t("Header_services_learning")}
+                                    {t("header_clinic_training")}
                                 </div>
                             </Link>
                             <Link to='/book/'>
                                 <div className={css.dropdownItem}>
-                                    {t("Header_services_consultation")}
+                                    {t("header_treatments_consultation")}
                                 </div>
                             </Link>
                             <Link to='/treatments/'>
                                 <div className={css.dropdownItem}>
-                                    {t("Header_services_another")}
+                                    {t("header_treatments_more")}
                                 </div>
                             </Link>
                         </div>
                     </li>
                     <li className={location.pathname === '/price/' ? css.active : ''}>
-                        <Link to='/price/'>{t("Header_price")}</Link>
+                        <Link to='/price/'>{t("header_price")}</Link>
                     </li>
                     <li className={location.pathname === '/contacts/' ? css.active : ''}>
-                        <Link to='/contacts/'>{t("Header_Contacts")}</Link>
+                        <Link to='/contacts/'>{t("header_contacts")}</Link>
                     </li>
-                    <li className={location.pathname === '/about/' ? css.active : ''}>
-                        <Link to='#'>{t("Header_language")}</Link>&nbsp;
+                    <li>
+                        <Link to='#'>{t("header_language")}</Link>&nbsp;
                         <img src={arrow} alt="" />
                         <div className={css.dropdown}>
                             {
@@ -152,47 +152,47 @@ export default function Component(){
                 <ul className={css.mobileMenuList}>
                     <li className={css.active}>
                         <Link to='/about/'>
-                            {t("Header_AboutClinik")}
+                            {t("header_clinic")}
                         </Link>
                     </li>
                     <li className={css.active}>
                         <Link to='/news/'>
-                            {t("Header_AboutClinik_news")}
+                            {t("header_clinic_news")}
                         </Link>
                     </li>
                     <li className={css.active}>
                         <Link to='/faq/'>
-                            {t("Header_AboutClinik_question")}
+                            {t("header_clinic_faq")}
                         </Link>
                     </li>
                     <li className={css.active}>
-                        <Link to='/about/'>
-                            {t("Header_services_learning")}
+                        <Link to='/training/'>
+                            {t("header_clinic_training")}
                         </Link>
                     </li>
                     <li className={css.active}>
                         <Link to='/before-after/'>
-                            {t("Header_AboutClinik_after")}
+                            {t("header_clinic_before_after")}
                         </Link>
                     </li>
                     <li>
                         <Link to='/specialists/'>
-                            {t("Header_professionals")}
+                            {t("header_specialists")}
                         </Link>
                     </li>
                     <li>
                         <Link to='/treatments/'>
-                            {t("Header_services")}
+                            {t("header_treatments")}
                         </Link>
                     </li>
                     <li>
                         <Link to='/price/'>
-                            {t("Header_price")}
+                            {t("header_price")}
                         </Link>
                     </li>
                     <li>
                         <Link to='/contacts/'>
-                            {t("Header_Contacts")}
+                            {t("header_contacts")}
                         </Link>
                     </li>
                     <hr />

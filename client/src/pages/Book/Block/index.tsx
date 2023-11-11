@@ -51,11 +51,11 @@ export default function Block() {
 	return (
 		<Container>
 			<div className={css.heading}>
-				<Heading center>{t("ConsultationWithSpecialist_block1_title")}</Heading>
+				<Heading center>{t("page_book_block_title")}</Heading>
 			</div>
 			{step === "date" && (
 				<div className={css.datepickerContainer}>
-					<p className={css.containerHeading}>{t("ConsultationWithSpecialist_block1_subTitle")}</p>
+					<p className={css.containerHeading}>{t("page_book_frame1_title")}</p>
 					<StaticDatePicker
 						onChange={async (e) => {
 							const date = `${e?.year()}-${
@@ -89,12 +89,12 @@ export default function Block() {
 						variant="outlined"
 						sx={{ mb: 2 }}
 					>
-						{"<"} {t('back')}
+						{"<"} {t('page_book_frame2_button_back')}
 					</Button>
 					<Card>
 						<CardContent>
 							<center>
-								<CardTitle>{t("ConsultationWithSpecialist_block2_subTitle")}</CardTitle>
+								<CardTitle>{t("page_book_frame2_title")}</CardTitle>
 							</center>
 							<br />
 							{Array.isArray(data) &&
@@ -113,7 +113,7 @@ export default function Block() {
 										disabled={bookingIds.includes(item.id)}
 									>
 										{item.time_start} - {item.time_end}{" "}
-										{bookingIds.includes(item.id) && `(${t('consultation_busy')})`}
+										{bookingIds.includes(item.id) && `(${t('page_book_frame2_booked')})`}
 									</Button>
 								))}
 						</CardContent>
@@ -127,7 +127,7 @@ export default function Block() {
 						variant="outlined"
 						sx={{ mb: 2 }}
 					>
-						{"<"} {t('back')}
+						{"<"} {t('page_book_frame3_button_back')}
 					</Button>
 					<Card>
 						<CardContent>
@@ -139,9 +139,9 @@ export default function Block() {
 								} }
 							>
 								<div className={css.containerHeading}>
-									<CardTitle>{t("book_block1_cardTitle")}</CardTitle>
+									<CardTitle>{t("page_book_frame3_title")}</CardTitle>
 								</div>
-								<Input required name='full_name' placeholder={t('consultation_form_full_name')} fullWidth type='string'/>
+								<Input required name='full_name' placeholder={t('page_book_frame3_input_fullname')} fullWidth type='string'/>
 								<FieldPhone
 									required
 									name='phone_number'
@@ -160,7 +160,7 @@ export default function Block() {
 										}
 									}}
 								>
-									{t("book_block2_booking")}
+									{t("page_book_frame3_input_button")}
 								</MyButton>
 							</form>
 						</CardContent>
@@ -171,9 +171,9 @@ export default function Block() {
 				<div className={css.cardContainer}>
 					<Card>
 						<CardContent>
-							<p><CardTitle>{t("book_block3_cardTitle1")}</CardTitle></p>
+							<p><CardTitle>{t("page_book_frame4_text")}</CardTitle></p>
 							<Button component={RouterLink} to='/'>
-								{t("book_block4_cardTitle2")}
+								{t("page_book_frame4_button_home")}
 							</Button>
 						</CardContent>
 					</Card>

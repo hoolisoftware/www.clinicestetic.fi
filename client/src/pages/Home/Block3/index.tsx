@@ -27,9 +27,9 @@ export default function Block(){
             <div className={css.circle}>
                 <div className={css.circleContent}>
                     <img className={css.circleMask} src={circleMask} alt="circleMask" />
-                    <div className={css.circleTitle}>{t("home_block3_title")}</div>
-                    <div className={css.circleDescription}>{t("Home_block3_subTitle1")} <br />{t("Home_block3_subTitle2")}</div>
-                    <Button className={css.circleButton} onClick={ () => dispatch(toggleModalMessage()) }>{t("Home_block3_button")}</Button>
+                    <div className={css.circleTitle}>{t("page_home_block3_title")}</div>
+                    <div className={css.circleDescription}>{t("page_home_block3_text")}</div>
+                    <Button className={css.circleButton} onClick={ () => dispatch(toggleModalMessage()) }>{t("page_home_block3_button")}</Button>
                 </div>
             </div>
         </div>

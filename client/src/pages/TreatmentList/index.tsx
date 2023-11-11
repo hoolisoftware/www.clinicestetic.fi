@@ -10,7 +10,7 @@ export default function Page()
 {
     const {t} = useTranslation();
     return <PageLayout
-        title={t("services")}
+        title={t("page_treatments_title")}
     >
         <WrapperFirstBlock>
             <Block2/>

@@ -8,7 +8,7 @@ import {useTranslation} from "react-i18next";
 export default function Page() {
     const {t} = useTranslation();
     return <PageLayout
-        title={t('Header_AboutClinik_news')}
+        title={t('page_news_title')}
     >
         <WrapperFirstBlock>
             <Block1/>

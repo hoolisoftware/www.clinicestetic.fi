@@ -37,7 +37,7 @@ export default function Block(){
         <img className={css.bg} src={bg} alt="bg" />
         <Container className={css.container}>
             <Heading center>
-                <div className={css.heading}>{t("Home_block8_title")}</div>
+                <div className={css.heading}>{t("block_form_message_title")}</div>
             </Heading>
             <Card className={css.form}>
                 <CardContent>
@@ -45,7 +45,7 @@ export default function Block(){
                         <div className={css.formInner}>
                             <Input
                                 type='text'
-                                placeholder={t("Home_block8_placeholder1")}
+                                placeholder={t("block_form_message_form_full_name")}
                                 name='full_name'
                                 fullWidth
                                 disabled={mutation.isSuccess}
@@ -59,7 +59,7 @@ export default function Block(){
                                 required
                             />
                             <input type="text" hidden value={recaptcha as string}/>
-                            <textarea className={css.formTextarea} name='message' placeholder={t("Home_block8_placeholder3")} disabled={mutation.isSuccess} required></textarea>
+                            <textarea className={css.formTextarea} name='message' placeholder={t("block_form_message_form_message")} disabled={mutation.isSuccess} required></textarea>
                             <Button
                                 fullWidth
                                 onClick={ (e) => {
@@ -69,7 +69,7 @@ export default function Block(){
                                     }
                                 }}
                             >
-                                {t("Home_block8_button")}&nbsp;
+                                {t("block_form_message_form_button")}&nbsp;
                                 <img className={css.formButtonArrow} src={arrow} alt="arrow" />
                             </Button>
                             {
@@ -77,7 +77,7 @@ export default function Block(){
                                 <p>
                                     <AiFillCheckCircle/>
                                     &nbsp;
-                                    {t("Home_block8_alert")}
+                                    {t("block_form_message_form_success")}
                                 </p>
                             }
                         </div>
