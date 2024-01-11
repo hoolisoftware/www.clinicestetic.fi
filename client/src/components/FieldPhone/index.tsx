@@ -20,10 +20,10 @@ export default function FieldPhone(props: Props) {
 
     const getMask = () => {
         const masks = {
-            ru: '+9 (999) 999-99-99',
+            ru: '+ 999-99-999-99-99',
             fin: '+ 999-99-999-99-99',
         }
-        return masks[i18n.language as ('ru' | 'fin')] || '+ 9 (999) 999-99-99'
+        return masks[i18n.language as ('ru' | 'fin')] || '+ 999-99-999-99-99'
     }
 
     return (
