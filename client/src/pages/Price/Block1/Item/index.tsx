@@ -25,7 +25,7 @@ export default function Item(props: props) {
             <div className={css.itemInner}>
                 <CardContent>
                     <div className={css.itemTop}>
-                        <div className={css.itemTitle}>{props.treatment.title}</div>
+                        <div className={css.itemTitle}>{getTranslatedField(props.treatment, 'title', i18n.language)}</div>
                         <div className={[css.itemButtonClose, !props.active && css.itemButtonCloseDisabled].join(' ')} onClick={ () => props.setActive(props.index) }>
                             <img className={css.itemIconClose} src={iconClose}/>
                         </div>
