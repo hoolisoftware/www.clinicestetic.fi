@@ -7,7 +7,7 @@ import Heading from '@/components/Heading'
 import Container from '@/components/Container'
 
 import TrainingImage from '@/assets/components/treatments-treatment7.png'
-import BookImage from '@/assets/components/treatments-treatment8.png'
+import BookImage from '@/assets/components/treatments-treatment8.jpg'
 
 import {useTranslation} from "react-i18next";
 import { useServices } from '@/hooks/use-query/services'
