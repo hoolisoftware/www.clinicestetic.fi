@@ -22,6 +22,7 @@ import News from './pages/News'
 import NewsDetail from './pages/NewsDetail'
 import Book from './pages/Book'
 import Test from '@/pages/Test'
+import {useEffect} from "react";
 
 
 const router = createBrowserRouter([
@@ -94,6 +95,17 @@ const router = createBrowserRouter([
 
 
 function App() {
+  useEffect(() => { //jivochat
+    const script = document.createElement('script');
+    script.src = "//code.jivosite.com/widget/E0EaxnNlBr";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      script.remove(); // Функция очистки для удаления скрипта при unmount
+    };
+  }, []);
+
   const dispatch = useDispatch()
   useQuery('config', {
     queryFn: async () => {
